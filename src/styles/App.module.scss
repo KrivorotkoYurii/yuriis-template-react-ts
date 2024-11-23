@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: auto;
+}
+
+.firstDiv {
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
