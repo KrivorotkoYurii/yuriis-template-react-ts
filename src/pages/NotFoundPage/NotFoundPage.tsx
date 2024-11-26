@@ -13,7 +13,7 @@ export const NotFoundPage: React.FC = () => {
           className={styles.notFound__image}
         />
         <h2 className={styles.notFound__title}>Page not found</h2>
-        <Link to={'/'} className={styles.notFound__button}>
+        <Link to={'/'} className={styles.notFound__button} replace>
           Back to home page
         </Link>
       </div>
