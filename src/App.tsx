@@ -6,7 +6,6 @@ import { Outlet } from 'react-router-dom';
 export const App: React.FC = () => {
   return (
     <section className={styles.container}>
-      <div className={styles.firstDiv}>Centered div</div>
       <Outlet />
     </section>
   );
